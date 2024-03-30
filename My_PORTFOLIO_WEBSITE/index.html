@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/40087912db.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/home.jpeg" class="logo" >
+                <ul id="sidemenu">
+                   <li><a href="#header">Home</a></li>
+                   <li><a href="#about">About</a></li>
+                   <li><a href="#services">Services</a></li>
+                   <li><a href="#portfolio">Portfolio</a></li>
+                   <li><a href="#contact">Contacts</a></li>
+                   <i class="fa-regular fa-circle-xmark" onclick="closemenu()" id="it"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()" id="it"></i>
+        </nav>
+    <div id="header-text">Hello!</div>
+            <h1>I am <span>Chrispin Odiwuor</span>,<br>a <span>software engineer</span>.<br>I enhance user experience <br>with intuitive interface design<br> and responsive web applications.</h1>
+</div>
+   <!--About-->     
+</div>
+    <div id="about">
+        <div id="container">   
+            <div class="row">
+                <div id="about-col-1">
+                    <img src="images/bob2.html.jpg" alt="my photo">
+                </div>
+                <div id="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>
+<span  class="description">About me</span>
+<br>
+I'm Chrispin odiwuor, a passionate software engineer with a knack for crafting robust and innovative solutions. My journey into the world of technology began with an insatiable curiosity and a desire to create impactful software that enhances user experiences.
+<br>
+<span  class="description">Skills & Expertise</span>
+<br>
+As a full-stack developer, I specialize in the MERN (MongoDB, Express.js, React.js, Node.js) stack, alongside proficiency in Python, CSS, SQL and HTML. Whether it's building scalable backend APIs, crafting responsive and intuitive user interfaces, or optimizing database performance, I thrive on the challenges that come with modern web development.
+<br>
+<span  class="description">Experience</span>
+<br>
+With 3 years of hands-on experience in the industry, I've had the privilege of working on diverse projects across various domains. From e-commerce platforms to social networking applications, I've honed my skills in architecting, developing, and deploying software solutions that meet both business requirements and user expectations.
+<br>
+<span  class="description">Passion for learning</span>
+<br>
+Technology is ever-evolving, and I firmly believe in the importance of continuous learning. Whether it's exploring emerging frameworks, experimenting with new methodologies, or staying updated on industry trends, I'm committed to expanding my knowledge and refining my craft to deliver cutting-edge solutions.
+<br>
+<span  class="description">Collaborative spirit</span>
+<br>
+I thrive in collaborative environments where ideas are shared, challenges are tackled collectively, and innovation flourishes. My communication skills, coupled with a proactive approach to problem-solving, enable me to effectively collaborate with cross-functional teams to deliver results that exceed expectations.
+<br>
+<span  class="description">Let's connect</span>
+<br>
+I'm always eager to connect with fellow tech enthusiasts, potential collaborators, or anyone who shares a passion for building extraordinary software. Feel free to reach out, and let's embark on a journey to turn ideas into reality through the power of code.
+ 
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')" >Skills</p>
+                        <p class="tab-links " onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links " onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li> <span>Web/app development</span><br>HTML5,CSS3,JS <br>MERN stack<br>Python<br>SQL</li>
+                            <li><span>SEO</span></li>
+                            <li><span>Product design(UI/UX)</span> <br>figma</li>
+                            <li><span>Sales and marketing</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022_02_14--2023-07-28</span><br>Full stack developer at Distras start up Nairobi</li>
+                            <li><span>2023_08_13--2024-01-03</span><br>MERN stack developer at Upworks with  Sandhl Agencies</li>
+                            <li><span>2024_01_05 up to date</span><br>Remote developer working with various start ups</li>  
+                        </ul>
+                        
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li>Bachelor of science in Software Engineering at Multimedia University of Kenya</li>
+                            <li></li>
+                            <li>Currently learning Data science</li>
+                        </ul>    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--services-->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>E-commerce Website Development</h2>
+                <p>
+                    Elevate your online retail presence with custom e-commerce websites designed to captivate customers and drive sales. Leveraging cutting-edge technologies and intuitive user interfaces, I create seamless shopping experiences that enhance customer engagement and boost conversion rates. From product showcases to secure payment gateways, I provide end-to-end solutions that empower businesses to thrive in the digital marketplace.Whether you're launching an e-commerce empire or revamping your digital storefront, I'm here to empower you with tailored solutions that propel your business forward in the digital age
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>Custom Website Development</h2>
+                <p>
+                    Beyond e-commerce, I excel in developing custom websites tailored to your unique needs and specifications. Whether you're launching a portfolio website, a corporate portal, or a content management system, I leverage my expertise in front-end and back-end development to bring your vision to life. With a keen eye for design and a commitment to functionality, I ensure that your website not only looks stunning but also delivers exceptional performance and usability across all devices.I craft responsive websites that adapt seamlessly to various screen sizes and devices, ensuring a consistent and engaging user experience regardless of the platform.
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-laptop"></i>
+                <h2>SEO and Marketing Services</h2>
+                <p>
+                    I offer comprehensive services designed to elevate your online visibility, drive targeted traffic to your website, and convert leads into loyal customers. With a blend of technical prowess, strategic thinking, and persuasive communication, I'm here to help you unlock the full potential of your online presence.As an SEO expert, I specialize in optimizing your website's visibility on major search engines such as Google, Bing, and Yahoo. From keyword research to on-page optimization, I employ proven tactics to improve your website's organic search performance, driving qualified traffic and maximizing your online reach.
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-circle-check"></i>
+                <h2>Continuous Support</h2>
+                <p>
+                    My commitment to excellence extends beyond the launch of your website. I provide ongoing support and maintenance services to ensure that your website remains up-to-date, secure, and optimized for peak performance. Whether it's troubleshooting technical issues, implementing new features, or scaling your infrastructure, I'm here to support your online endeavors every step of the way. 
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>                      
+    </div>
+</div>
+<!--Portfolio-->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/images (31).jpeg" alt="">
+                <div class="layer">
+                    <h3>Social media app</h3>
+                <p>The  app connects you to family and friends</p>
+                <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/images (31).jpeg" alt="">
+                <div class="layer">
+                    <h3>Social media app</h3>
+                <p>The  app connects you to family and friends</p>
+                <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/images (31).jpeg" alt="">
+                <div class="layer">
+                    <h3>Social media app</h3>
+                <p>The  app connects you to family and friends</p>
+                <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!--Contacts-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p><i class="fa-regular fa-paper-plane"></i>chrixclout@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+254703274032</p>
+               <div class="social-icons">
+                <a href="https://www.facebook.com/profile.php?id=100088764537286"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/bobchrix?igsh=YWFvYmQyeWgwbGll"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://x.com/BobChrix?t=QPtx_416W-J6LKI0o6JXDg&s=09"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://wa.me/254703274032"><i class="fa-brands fa-square-whatsapp"></i></a>
+                <a href="https://github.com/Bobybuu"><i class="fa-brands fa-square-github"></i></a>
+               </div>
+               <a href="" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>made by chris</p>
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+       sidemenu.style.right = "0" ;
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px" ;
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwsERpStOoxBEY3HdrZyFJ-9QTlY3sAvHWF_Rjt3-jfMVvgvw6H_9-IsfmukPjXGwhGPA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg");
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(fuction(),{
+                msg.innerHTML = "",
+            }
+            },5000)
+        form.reset()
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
